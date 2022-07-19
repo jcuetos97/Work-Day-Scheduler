@@ -1,0 +1,72 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: rgb(177, 175, 175,.25);
+  display: flex;
+  border: none;
+  resize: none;
+  color: #000000;
+  padding: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#clearbttn {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(118, 127, 202, 0.75);
+  color: white;
+  border: none;
+}
+
+.jumbotron {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: black;
+  border-radius: 25px;
+  background-color: rgb(11, 100, 179,.12);
+  padding: 25px;
+}
+
+.row {
+  height: 80px;
+}
+
+.hour {
+  justify-content: center;
+  align-items: center;
+  background: rgb(177, 175, 175,.55);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-weight: 500;
+}
+
+.past textarea { 
+    background-color:rgba(211, 204, 203, 0.5);
+}
+
+.present textarea {
+  background-color: rgb(245, 104, 97,.5);
+}
+
+.future textarea {
+  background-color: rgba(97, 245, 134, 0.5);
+}
+
+.savebttn {
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(118, 127, 202, 0.75) ;
+  color: white;
+}
+
+.savebttn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Work Day Scheduler</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="./assets/css/style.css" 
+    />
+    
+    
+  </head>
+
+  <body>
+    <header class="jumbotron col-md-8">
+      <h1 class="text-uppercase">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+      <button id="clearbttn"> Clear all</button>
+    </header>
+    
+    <div class="container">
+        <div id="09" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>9AM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+
+        <div id="10" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>10AM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+        
+        <div id="11" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>11AM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+
+        <div id="12" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>12PM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+        
+        <div id="13" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>1PM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+      
+        <div id="14" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>2PM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+
+        <div id="15" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>3PM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+
+        <div id="16" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>4PM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+
+        <div id="17" class="row timeslot" style="margin: 7px;">
+          <div class="d-flex col-md-1 hour"><span>5PM</span></div>
+          <textarea class="col-md-10 item" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 savebttn">
+            <i class="fas fa-lock"></i>
+          </button>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
