@@ -1,6 +1,6 @@
 # Work Day Scheduler Starter Code
 
-A simple calendar application that allows the user to create a schedule for standard business hours with the option to events for each hour of the day. It highlights the current hour, while also indicates the hours of the day that have past, just as the ones that are about to come. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
+A simple calendar application that allows the user to create a schedule for standard business hours. The user can add events for each hour of the day. The application highlights the current hour, while also indicates with grey the hours of the day that have passed, and with green the ones that are about to come. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
 ## Links 
 
