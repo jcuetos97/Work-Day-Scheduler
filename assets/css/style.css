@@ -4,25 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea {
-  background: rgb(177, 175, 175,.25);
-  display: flex;
-  border: none;
-  resize: none;
-  color: #000000;
-  padding: 10px;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-#clearbttn {
-  padding: 15px;
-  border-radius: 15px;
-  background-color: rgba(118, 127, 202, 0.75);
-  color: white;
-  border: none;
-}
-
+/* Header */
 .jumbotron {
   margin-right: auto;
   margin-left: auto;
@@ -33,6 +15,7 @@ textarea {
   padding: 25px;
 }
 
+/* Time slot */
 .row {
   height: 80px;
 }
@@ -46,16 +29,36 @@ textarea {
   font-weight: 500;
 }
 
+textarea {
+  background: rgb(177, 175, 175,.25);
+  display: flex;
+  border: none;
+  resize: none;
+  color: #000000;
+  padding: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
 .past textarea { 
-    background-color:rgba(211, 204, 203, 0.5);
+  background-color:rgba(211, 204, 203, 0.5);
 }
 
 .present textarea {
-  background-color: rgb(245, 104, 97,.5);
+background-color: rgb(245, 104, 97,.5);
 }
 
 .future textarea {
-  background-color: rgba(97, 245, 134, 0.5);
+background-color: rgba(97, 245, 134, 0.5);
+}
+
+/* Buttons */
+#clearbttn {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(118, 127, 202, 0.75);
+  color: white;
+  border: none;
 }
 
 .savebttn {

@@ -16,6 +16,7 @@ $(document).ready(function() {
         localStorage.clear();
       });
     
+    // Identification of past, present, and future
     $(".timeslot").each(function () {
         var hour = $(this).attr("id");
         console.log(hour);
@@ -31,6 +32,8 @@ $(document).ready(function() {
         }
       });
 
+
+    // Sets and saves scheduled items in local storage
     $(".savebttn").click(function (event) {
       event.preventDefault();     
       var time = $(this).parent().attr("id");
